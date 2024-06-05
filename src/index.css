@@ -1,0 +1,87 @@
+@tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  h4 {
+    @apply text-xl;
+  }
+  h5 {
+    @apply text-lg;
+  }
+  h6 {
+    @apply text-base;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+.btn-default {
+  background-color: #e5e7eb; /* Default background color */
+  color: #374151; /* Default text color */
+  padding: 0.5rem 1rem; /* Padding */
+  border-radius: 0.25rem; /* Border radius */
+  border: 1px solid #d1d5db; /* Border */
+  transition: background-color 0.3s ease; /* Transition */
+}
+
+.btn-default:hover {
+  background-color: #d1d5db; /* Hover background color */
+}
+
+/* Danger Button */
+.btn-danger {
+  background-color: #f87171; /* Danger background color */
+  color: #fff; /* Text color */
+}
+
+.btn-danger:hover {
+  background-color: #f87171; /* Hover background color */
+}
+
+/* Warning Button */
+.btn-warning {
+  background-color: #fbbf24; /* Warning background color */
+  color: #fff; /* Text color */
+}
+
+.btn-warning:hover {
+  background-color: #fbbf24; /* Hover background color */
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #60a5fa; /* Primary background color */
+  color: #fff; /* Text color */
+}
+
+.btn-primary:hover {
+  background-color: #3b82f6; /* Hover background color */
+}
+
+/* Success Button */
+.btn-success {
+  background-color: #34d399; /* Success background color */
+  color: #fff; /* Text color */
+}
+
+.btn-success:hover {
+  background-color: #10b981; /* Hover background color */
+}
+
+/* Info Button */
+.btn-info {
+  background-color: #6ee7b7; /* Info background color */
+  color: #fff; /* Text color */
+}
+
+.btn-info:hover {
+  background-color: #48bb78; /* Hover background color */
+}
